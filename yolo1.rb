@@ -31,3 +31,5 @@ car_paths = []
 nb_cars.times do
   car_paths += [CarPath.new(gets.split)]
 end
+
+p streets
